@@ -1,2 +1,3 @@
-# IaC
-Infrastructure as Code
+# IaC - Infrastructure as Code
+
+- Laboratório Básico de Terraform

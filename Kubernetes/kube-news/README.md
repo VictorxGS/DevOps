@@ -1,7 +1,7 @@
 # LABORATÓRIO KUBERNTES (KubeNews)
-O laboratório tem como objetivo demonstratar resiliência e balanciamento de carga sobre os containers de uma aplicação orquestrada pelo Kubernetes. 
-Para prover um Cluster local como infraestrutura foi utilizado o K3D, para orquesração dos containers, o KubeCTL e como aplicação, um web-app chamado KubeNews 
-desenvolvido em nodejs com um banco de PosgreSQL. Nesse ambientes foram aplicados os conceitos de 'Selectors', 'Labels', 'Deployments', 'ReplicaSets', 'pods' e loadbaancer.
+O laboratório tem como objetivo demonstrar resiliência e balanciamento de carga sobre os containers de uma aplicação orquestrada pelo Kubernetes. 
+Para prover um Cluster local como infraestrutura foi utilizado o K3D, para orquestração dos containers, o Kubernetes (KubeCTL) e como aplicação, um web-app chamado KubeNews 
+desenvolvido em nodejs com um banco de PosgreSQL. Nesse ambientes foram aplicados os conceitos de 'Selectors', 'Labels', 'Deployments', 'ReplicaSets', 'pods' e loadbalancer.
 
 ### Get Start
 - Criação do Cluster
@@ -14,11 +14,11 @@ desenvolvido em nodejs com um banco de PosgreSQL. Nesse ambientes foram aplicado
   kubectl create -f deployment.yaml && watch 'kubectl get pods'
   ~~~
   
-- REST Client (VsCode extesion)
+- REST Client (VsCode extesion - execução do Request POST para popular os dados da aplicação)
   
   https://marketplace.visualstudio.com/items?itemName=humao.rest-client
   
-- Página de Acesso
+- KubeNews
   
   http://localhost:8080/
 

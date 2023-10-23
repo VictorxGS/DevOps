@@ -1,0 +1,26 @@
+#KubeNews
+___________
+
+- #Get Start
+  Criação do Cluster
+  k3d cluster create mycluster -p "8080:30000@loadbalancer"
+
+  Provisionamento do manifesto no diretório ./k8s
+  kubectl create -f deployment.yaml && watch 'kubectl get pods'
+
+  REST Client (VsCode extesion)
+  https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+
+  http://localhost:8080/
+
+- Requeriments
+  K3d install
+  https://k3d.io/
+  KubeCTL install
+  https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+
+
+
+
+
+  
